@@ -1,0 +1,12 @@
+1. File Config.xml
++ datapath : thu muc se xuat ra file yyyyMMdd_VN30.dat.
++ parampath, offsetpath : chua file cau hinh cua chuong trinh.
+Vd:
+        <datapath>C:\VN30\INDEX_CLIENT</datapath>
+        <parampath>C:\VN30\INDEX_CLIENT</parampath>
+        <offsetpath>C:\VN30\INDEX_CLIENT</offsetpath>
+2. File parameters.xml
++ targetip , targetport : Dia chi may chu va port ket noi den INDEX SERVER.
++ clientno, clientuid, clientpwd : Client No, UserName, Password de ket noi den INDEX SERVER.
+
+Luu y : Khi chay chuong trinh lan dau tien, hop thoai hien len thi can browse den file INDEX_CLIENT.key.

@@ -1,0 +1,14 @@
+WatcherLoopInterval=5000
+MaxRecordsOneTime=5
+DB_HOST=172.25.2.130
+DB_USER=sms
+DB_PASS=smskis
+DB_SID=VIETNAM01
+DB_SMS_TABLE=VN.XCS01M00
+LOG_PATH=/home/java/logs
+SMSInterval=0
+SMSWaitingDBStatus=9
+SMSFailDBStatus=0
+SMSSuccessDBStatus=1
+SMSRetry=1
+SMS_MAX_LENGTH=154

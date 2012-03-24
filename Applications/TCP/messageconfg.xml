@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MessageCollection>
+	<Message id="1I" beanName="eps.com.message.sended.NewConditioned_1I" size="70">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">1I</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">TraderID</name>
+			<size type="String">4</size>
+			<type type="String">AlphanumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">OrderNumber</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">ClientID</name>
+			<size type="String">10</size>
+			<type type="String">AlphanumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">SecuritySymbol</name>
+			<size type="String">8</size>
+			<type type="String">AlphanumericString</type>
+		</field_6>
+		<field_7>
+			<name type="String">Side</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_7>
+		<field_8>
+			<name type="String">Volume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_8>
+		<field_9>
+			<name type="String">PublishedVolume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_9>
+		<field_10>
+			<name type="String">Price</name>
+			<size type="String">6</size>
+			<type type="String">AlphanumericString</type>
+		</field_10>
+		<field_11>
+			<name type="String">Board</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_11>
+		<field_12>
+			<name type="String">Filler</name>
+			<size type="String">5</size>
+			<type type="String"></type>
+		</field_12>
+		<field_13>
+			<name type="String">PortClientFlag</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_13>
+		<field_14>
+			<name type="String">Filler2</name>
+			<size type="String">5</size>
+			<type type="String"></type>
+		</field_14>
+	</Message>
+
+	<Message id="1C" beanName="eps.com.message.sended.OrderCancellation_1C" size="17">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">1C</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">OrderNumber</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">OrderEntryDate</name>
+			<size type="String">4</size>
+			<type type="String">NumericString</type>
+		</field_4>
+	</Message>
+
+	<Message id="1D" beanName="eps.com.message.sended.OrderChange_1D" 	size="44">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">1D</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">OrderNumber</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">OrderEntryDate</name>
+			<size type="String">4</size>
+			<type type="String">NumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">ClientID</name>
+			<size type="String">10</size>
+			<type type="String">NumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">Filler</name>
+			<size type="String">17</size>
+			<type type="String">NumericString</type>
+		</field_6>
+	</Message>
+
+	<Message id="1E" beanName="eps.com.message.sended.Advertisement_1E" size="66">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">1E</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">TraderID</name>
+			<size type="String">4</size>
+			<type type="String">AlphanumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">SecuritySymbol</name>
+			<size type="String">8</size>
+			<type type="String">AlphanumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">Side</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_5>
+		<field_6>
+			<name type="String">Volume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_6>
+		<field_7>
+			<name type="String">Price</name>
+			<size type="String">12</size>
+			<type type="String">NumericString</type>
+		</field_7>
+		<field_8>
+			<name type="String">Board</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_8>
+		<field_9>
+			<name type="String">Time</name>
+			<size type="String">6</size>
+			<type type="String">NumericString</type>
+		</field_9>
+		<field_10>
+			<name type="String">AddCancelFlag</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_10>
+		<field_11>
+			<name type="String">Contact</name>
+			<size type="String">20</size>
+			<type type="String">NumericString</type>
+		</field_11>
+	</Message>
+
+
+	<Message id="1F" beanName="eps.com.message.sended.OneFirmPutThroughDeal_1F" size="191">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">1F</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">TraderID</name>
+			<size type="String">4</size>
+			<type type="String">AlphanumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">ClientIDBuyer</name>
+			<size type="String">10</size>
+			<type type="String">AlphanumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">ClientIDSeller</name>
+			<size type="String">10</size>
+			<type type="String">AlphanumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">SecuritySymbol</name>
+			<size type="String">8</size>
+			<type type="String">AlphanumericString</type>
+		</field_6>
+		<field_7>
+			<name type="String">Price</name>
+			<size type="String">12</size>
+			<type type="String">NumericString</type>
+		</field_7>
+		<field_8>
+			<name type="String">Board</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_8>
+		<field_9>
+			<name type="String">DealID</name>
+			<size type="String">5</size>
+			<type type="String">NumericString</type>
+		</field_9>
+		<field_10>
+			<name type="String">Filler</name>
+			<size type="String">8</size>
+			<type type="String"></type>
+		</field_10>
+		<field_11>
+			<name type="String">BrokerPortfolioVolumeBuyer</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_11>
+		<field_12>
+			<name type="String">BrokerClientVolumeBuyer</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_12>
+		<field_13>
+			<name type="String">MutualFundVolumeBuyer</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_13>
+		<field_14>
+			<name type="String">BrokerForeignVolumeBuyer</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_14>
+		<field_15>
+			<name type="String">Filler2</name>
+			<size type="String">32</size>
+			<type type="String"></type>
+		</field_15>
+		<field_16>
+			<name type="String">BrokerPortfolioVolumeSeller</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_16>
+		<field_17>
+			<name type="String">BrokerClientVolumeSeller</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_17>
+		<field_18>
+			<name type="String">MutualFundVolumeSeller</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_18>
+		<field_19>
+			<name type="String">BrokerForeignVolumeSeller</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_19>
+		<field_20>
+			<name type="String">Filler3</name>
+			<size type="String">32</size>
+			<type type="String"></type>
+		</field_20>
+	</Message>
+
+	<Message id="1G" beanName="eps.com.message.sended.TwoFirmPutThroughDeal_1G" size="120">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">1G</type>
+		</field_1>
+		<field_2>
+			<name type="String">FirmSeller</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">TraderIDSeller</name>
+			<size type="String">4</size>
+			<type type="String">AlphanumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">ClientIDSeller</name>
+			<size type="String">10</size>
+			<type type="String">AlphanumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">ContraFirmBuyer</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">TraderIDBuyer</name>
+			<size type="String">4</size>
+			<type type="String">AlphanumericString</type>
+		</field_6>
+		<field_7>
+			<name type="String">SecuritySymbol</name>
+			<size type="String">8</size>
+			<type type="String">AlphanumericString</type>
+		</field_7>
+		<field_8>
+			<name type="String">Price</name>
+			<size type="String">12</size>
+			<type type="String">NumericString</type>
+		</field_8>
+		<field_9>
+			<name type="String">Board</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_9>
+		<field_10>
+			<name type="String">DealID</name>
+			<size type="String">5</size>
+			<type type="String">NumericString</type>
+		</field_10>
+		<field_11>
+			<name type="String">Filler</name>
+			<size type="String">4</size>
+			<type type="String"></type>
+		</field_11>
+		<field_12>
+			<name type="String">BrokerPortfolioVolumeSeller</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_12>
+		<field_13>
+			<name type="String">BrokerClientVolumeSeller</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_13>
+		<field_14>
+			<name type="String">MutualFundVolumeSeller</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_14>
+		<field_15>
+			<name type="String">BrokerForeignVolumeSeller</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_15>
+		<field_16>
+			<name type="String">Filler2</name>
+			<size type="String">32</size>
+			<type type="String"></type>
+		</field_16>
+	</Message>
+
+	<Message id="2B" beanName="eps.com.message.received.OrderConfirmation_2B" size="17">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">2B</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">OrderNumber</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">OrderEntryDate</name>
+			<size type="String">4</size>
+			<type type="String">NumericString</type>
+		</field_4>
+	</Message>
+	<Message id="2C" beanName="eps.com.message.received.ConfirmOfOrderCancel_2C" size="26">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">2C</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">CancelShares</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">OrderNumber</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">OrderEntryDate</name>
+			<size type="String">4</size>
+			<type type="String">NumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">OrderCancelStatus</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_6>
+	</Message>
+	<Message id="2D" beanName="eps.com.message.received.ConfirmOfOrderChange_2D" size="50">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">2D</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">OrderNumber</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">OrderEntryDate</name>
+			<size type="String">4</size>
+			<type type="String">NumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">ClientID</name>
+			<size type="String">10</size>
+			<type type="String">AlphanumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">PortClientFlag</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_6>
+		<field_7>
+			<name type="String">PublishedVolume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_7>
+		<field_8>
+			<name type="String">Price</name>
+			<size type="String">6</size>
+			<type type="String">NumericString</type>
+		</field_8>
+		<field_9>
+			<name type="String">Filler</name>
+			<size type="String">8</size>
+			<type type="String"></type>
+		</field_9>
+	</Message>
+	<Message id="2E" beanName="eps.com.message.received.DealConfirmation_2E" size="40">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">2E</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">Side</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_3>
+		<field_4>
+			<name type="String">OrderNumber</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">OrderEntryDate</name>
+			<size type="String">4</size>
+			<type type="String">NumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">Filler</name>
+			<size type="String">2</size>
+			<type type="String"></type>
+		</field_6>
+		<field_7>
+			<name type="String">Volume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_7>
+		<field_8>
+			<name type="String">Price</name>
+			<size type="String">6</size>
+			<type type="String">NumericString</type>
+		</field_8>
+		<field_9>
+			<name type="String">ConfirmNumber</name>
+			<size type="String">6</size>
+			<type type="String">NumericString</type>
+		</field_9>
+	</Message>
+	<Message id="2F"
+		beanName="eps.com.message.received.PutThroughAcknowledgment_2F" size="52">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">2F</type>
+		</field_1>
+		<field_2>
+			<name type="String">FirmBuy</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">TraderIDBuy</name>
+			<size type="String">4</size>
+			<type type="String">AlphanumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">SideB</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_4>
+		<field_5>
+			<name type="String">ContraFirmSell</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">TraderIDContraSideSell</name>
+			<size type="String">4</size>
+			<type type="String">AlphanumericString</type>
+		</field_6>
+		<field_7>
+			<name type="String">SecuritySymbol</name>
+			<size type="String">8</size>
+			<type type="String">AlphanumericString</type>
+		</field_7>
+		<field_8>
+			<name type="String">Volume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_8>
+		<field_9>
+			<name type="String">Price</name>
+			<size type="String">12</size>
+			<type type="String">NumericString</type>
+		</field_9>
+		<field_10>
+			<name type="String">Board</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_10>
+		<field_11>
+			<name type="String">ConfirmNumber</name>
+			<size type="String">6</size>
+			<type type="String">NumericString</type>
+		</field_11>
+	</Message>
+	<Message id="2G" beanName="eps.com.message.received.Reject_2G" size="240">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">2G</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">RejectReasonCode</name>
+			<size type="String">2</size>
+			<type type="String">NumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">OriginalMessageText</name>
+			<size type="String">233</size>
+			<type type="String"></type>
+		</field_4>
+	</Message>
+	<Message id="2I" beanName="eps.com.message.received.CrossingDealConfirmation_2I" size="49">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">2I</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">OrderNumberBuy</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">OrderEntryDateBuy</name>
+			<size type="String">4</size>
+			<type type="String">NumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">OrderNumberSell</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">OrderEntryDateSell</name>
+			<size type="String">4</size>
+			<type type="String">NumericString</type>
+		</field_6>
+		<field_7>
+			<name type="String">Volume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_7>
+		<field_8>
+			<name type="String">Price</name>
+			<size type="String">6</size>
+			<type type="String">NumericString</type>
+		</field_8>
+		<field_9>
+			<name type="String">ConfirmNumber</name>
+			<size type="String">6</size>
+			<type type="String">NumericString</type>
+		</field_9>
+	</Message>
+	<Message id="2L" beanName="eps.com.message.received.PutThroughDealConfirmation_2L" size="40">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">2L</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">Side</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_3>
+		<field_4>
+			<name type="String">DealID</name>
+			<size type="String">5</size>
+			<type type="String">NumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">ContraFirm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">Volume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_6>
+		<field_7>
+			<name type="String">Price</name>
+			<size type="String">12</size>
+			<type type="String">NumericString</type>
+		</field_7>
+		<field_8>
+			<name type="String">ConfirmNumber</name>
+			<size type="String">6</size>
+			<type type="String">NumericString</type>
+		</field_8>
+	</Message>
+	<Message id="3A" beanName="eps.com.message.received.Admin_3A" size="82">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">3A</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">TraderIDSender</name>
+			<size type="String">4</size>
+			<type type="String">AlphanumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">TraderIDReciever</name>
+			<size type="String">4</size>
+			<type type="String">AlphanumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">ContraFirm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">AdminMessageText</name>
+			<size type="String">66</size>
+			<type type="String">AlphanumericString</type>
+		</field_6>
+	</Message>
+	<Message id="3B" beanName="eps.com.message.sended.PutThroughDealReply_3B" size="95">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">3B</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">ConfirmNumber</name>
+			<size type="String">6</size>
+			<type type="String">NumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">DealID</name>
+			<size type="String">5</size>
+			<type type="String">NumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">ClientIDBuyer</name>
+			<size type="String">10</size>
+			<type type="String">AlphanumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">ReplyCode</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_6>
+		<field_7>
+			<name type="String">Filler</name>
+			<size type="String">4</size>
+			<type type="String"></type>
+		</field_7>
+		<field_8>
+			<name type="String">BrokerPortfolioVolume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_8>
+		<field_9>
+			<name type="String">BrokerClientVolume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_9>
+		<field_10>
+			<name type="String">BrokerMutualFundVolume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_10>
+		<field_11>
+			<name type="String">BrokerForeignVolume</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_11>
+		<field_12>
+			<name type="String">Filler2</name>
+			<size type="String">32</size>
+			<type type="String"></type>
+		</field_12>
+	</Message>
+	<Message id="3C"
+		beanName="eps.com.message.sended.DealPutThroughCancelRequest_3C" size="27">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">3C</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">ContraFirm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">TraderID</name>
+			<size type="String">4</size>
+			<type type="String">AlphanumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">ConfirmNumber</name>
+			<size type="String">6</size>
+			<type type="String">NumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">SecuritySymbol</name>
+			<size type="String">8</size>
+			<type type="String">AlphanumericString</type>
+		</field_6>
+		<field_7>
+			<name type="String">Side</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_7>
+	</Message>
+	<Message id="3D" beanName="eps.com.message.sended.DealCancelReply_3D" size="12">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">3D</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">3</size>
+			<type type="String">NumericString</type>
+		</field_2>
+		<field_3>
+			<name type="String">ConfirmNumber</name>
+			<size type="String">6</size>
+			<type type="String">NumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">ReplyCode</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_4>
+	</Message>
+	<Message id="RN" beanName="eps.com.message.received.RetransmissionNack_RN" 	size="484">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">RN</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">ErrorCode</name>
+			<size type="String">2</size>
+			<type type="String">AlphaNumeric</type>
+		</field_3>
+		<field_4>
+			<name type="String">OriginalMessageText</name>
+			<size type="String">478</size>
+			<type type="String">AlphaString</type>
+		</field_4>
+	</Message>
+	<Message id="RP" beanName="eps.com.message.received.RetransmissionReply_RP" size="484">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">RP</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">MarketID</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_3>
+		<field_4>
+			<name type="String">PreviousSequenceNumber</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">SequenceNumber</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+		<field_6>
+			<name type="String">MessageCount</name>
+			<size type="String">1</size>
+			<type type="String">Mod-96</type>
+		</field_6>
+		<field_7>
+			<name type="String">OriginalBroadcastMessage</name>
+			<size type="String">472</size>
+			<type type="String">AlphaString</type>
+		</field_7>
+	</Message>
+	<Message id="RQ" beanName="eps.com.message.sended.RetransmissionRequest_RQ" size="11">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">RQ</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">MarketID</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_3>
+		<field_4>  
+			<name type="String">RetransmissionStartSequence</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">RetransmissionEndSequence</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+	</Message>
+	<Message id="AA" beanName="eps.com.message.broadcast.AdvertisementAnnouncement_AA" 	size="52">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">AA</type>
+		</field_1>
+		<field_2>
+			<name type="String">SecurityNumber</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Volume</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">Price</name>
+			<size type="String">13</size>
+			<type type="String">AlphaNumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">Firm</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+		<field_6>
+			<name type="String">Trader</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_6>
+		<field_7>
+			<name type="String">Side</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_7>
+		<field_8>
+			<name type="String">Board</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_8>
+		<field_9>
+			<name type="String">Time</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_9>
+		<field_10>
+			<name type="String">AddCancelFlag</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_10>
+		<field_11>
+			<name type="String">Contact</name>
+			<size type="String">20</size>
+			<type type="String">AlphaNumericString</type>
+		</field_11>
+	</Message>
+	<Message id="BR" beanName="eps.com.message.broadcast.BrokerReconcile_BR" size="53">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">BR</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">MarketID</name>
+			<size type="String">1</size>
+			<type type="String">AlphaNumericString</type>
+		</field_3>
+		<field_4>
+			<name type="String">VolumeSold</name>
+			<size type="String">10</size>
+			<type type="String">AlphaNumericString</type>
+		</field_4>
+		<field_5>
+			<name type="String">ValueSold</name>
+			<size type="String">14</size>
+			<type type="String">AlphaNumericString</type>
+		</field_5>
+		<field_6>
+			<name type="String">VolumeBought</name>
+			<size type="String">10</size>
+			<type type="String">AlphaNumericString</type>
+		</field_6>
+		<field_7>
+			<name type="String">ValueBought</name>
+			<size type="String">14</size>
+			<type type="String">AlphaNumericString</type>
+		</field_7>
+	</Message>
+	<Message id="BS" beanName="eps.com.message.broadcast.BrokerStatusChange_BS" size="6">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">BS</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">AutoMatchHaltFlag</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_3>
+		<field_4>
+			<name type="String">PutthroughHaltFlag</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_4>
+	</Message>
+	<Message id="CO" beanName="eps.com.message.broadcast.CancelOddLot_CO" size="5">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">BS</type>
+		</field_1>
+		<field_2>
+			<name type="String">ReferenceNumber</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+	</Message>
+	<Message id="DC" beanName="eps.com.message.broadcast.DealCancellationNotice_DC" size="16">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">DC</type>
+		</field_1>
+		<field_2>
+			<name type="String">confirmNumber</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">securityNumber</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">volume</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">price</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+		<field_6>
+			<name type="String">board</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_6>
+	</Message>
+	<Message id="GA" beanName="eps.com.message.broadcast.GeneralAdmin_GA" 	size="73">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">GA</type>
+		</field_1>
+		<field_2>
+			<name type="String">adminMessageLength</name>
+			<size type="String">1</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">adminMessageText</name>
+			<size type="String">70</size>
+			<type type="String">AlphaNumericString></type>
+		</field_3>
+	</Message>
+	<Message id="IU" beanName="eps.com.message.broadcast.IndexUpdate_IU" size="56">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">IU</type>
+		</field_1>
+		<field_2>
+			<name type="String">indexHoSE</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">totalTrades</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">totalSharesTraded</name>
+			<size type="String">5</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">totalValuesTraded</name>
+			<size type="String">5</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+		<field_6>
+			<name type="String">upVolume</name>
+			<size type="String">5</size>
+			<type type="String">Mod-96</type>
+		</field_6>
+		<field_7>
+			<name type="String">downVolume</name>
+			<size type="String">5</size>
+			<type type="String">Mod-96</type>
+		</field_7>
+		<field_8>
+			<name type="String">noChangeVolume</name>
+			<size type="String">5</size>
+			<type type="String">Mod-96</type>
+		</field_8>
+		<field_9>
+			<name type="String">advances</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_9>
+		<field_10>
+			<name type="String">declines</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_10>
+		<field_11>
+			<name type="String">noChange</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_11>
+		<field_12>
+			<name type="String">filler1</name>
+			<size type="String">4</size>
+			<type type="String">AlphaString</type>
+		</field_12>
+		<field_13>
+			<name type="String">marketID</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_13>
+		<field_14>
+			<name type="String">filler2</name>
+			<size type="String">7</size>
+			<type type="String">AlphaString</type>
+		</field_14>
+		<field_15>
+			<name type="String">indexTime</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_15>
+	</Message>
+	<Message id="LO" beanName="eps.com.message.broadcast.LastOddLot_LO" size="16">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">LO</type>
+		</field_1>
+		<field_2>
+			<name type="String">Confirm_Number</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Security_Number</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">Odd_Lot_Volume</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">Price</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+		<field_6>
+			<name type="String">Reference_Number</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_6>
+	</Message>
+	<Message id="LS" beanName="eps.com.message.broadcast.LastSale_LS" size="15">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">LS</type>
+		</field_1>
+		<field_2>
+			<name type="String">confirmNumber</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">securityNumber</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">lotVolume</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">price</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+		<field_6>
+			<name type="String">side</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_6>
+	</Message>
+	<Message id="NH" beanName="eps.com.message.broadcast.NewHeadLine_NH" size="85">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">NH</type>
+		</field_1>
+		<field_2>
+			<name type="String">l_NewSNumber</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">s_SecuritySymbol</name>
+			<size type="String">8</size>
+			<type type="String">AlphaNumericString></type>
+		</field_3>
+		<field_4>
+			<name type="String">l_NewsHeadlineLength</name>
+			<size type="String">1</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">l_TotalNewsStoryPages</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+		<field_6>
+			<name type="String">s_NewsHeadlineText</name>
+			<size type="String">70</size>
+			<type type="String">AlphaNumericString></type>
+		</field_6>
+	</Message>
+	<Message id="NS" beanName="eps.com.message.broadcast.NewsStory_NS" size="223">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">NS</type>
+		</field_1>
+		<field_2>
+			<name type="String">News_Number</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">News_Page_Number</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">News_Text_Length</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">News_Text</name>
+			<size type="String">215</size>
+			<type type="String">AlphaNumericString></type>
+		</field_5>
+	</Message>
+	<Message id="OL" beanName="eps.com.message.broadcast.NewOddLot_OL" size="14">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">OL</type>
+		</field_1>
+		<field_2>
+			<name type="String">Security_Number</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Odd_Lot_Volume</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">Price</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">Side</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_5>
+		<field_6>
+			<name type="String">Reference_Number</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_6>
+	</Message>
+	<Message id="OS" beanName="eps.com.message.broadcast.MarketOpenLastSale_OS" size="8">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">OS</type>
+		</field_1>
+		<field_2>
+			<name type="String">Security_Number</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Price</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+	</Message>
+	<Message id="PD" beanName="eps.com.message.broadcast.PutThroughDealNotice_PD" size="16">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">PD</type>
+		</field_1>
+		<field_2>
+			<name type="String">Confirm_Number</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Security_Number</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">Volume</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">Price</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+		<field_6>
+			<name type="String">Board</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_6>
+	</Message>
+	<Message id="PO" beanName="eps.com.message.broadcast.ProjectedOpen_PO" size="8">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">PO</type>
+		</field_1>
+		<field_2>
+			<name type="String">Security_Number</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Projected_Open_Price</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+	</Message>
+	<Message id="SC" beanName="eps.com.message.broadcast.SystemControl_SC" 	size="6">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">SC</type>
+		</field_1>
+		<field_2>
+			<name type="String">System_Control_Code</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_2>
+		<field_3>
+			<name type="String">Timestamp</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+	</Message>
+	<Message id="SI" beanName="eps.com.message.broadcast.SectoralIndices_SI" size="129">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">SI</type>
+		</field_1>
+		<field_2>
+			<name type="String">Index_Sectoral_1</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Filler</name>
+			<size type="String">120</size>
+			<type type="String"></type>
+		</field_3>
+		<field_4>
+			<name type="String">Index_Time</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+	</Message>
+
+	<Message id="SR" beanName="eps.com.message.broadcast.SecurityReconcile_SR" 	size="36">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">SR</type>
+		</field_1>
+		<field_2>
+			<name type="String">Security_Number</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Main_or_Foreign_Deal</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">Main_or_Foreign_Acc_Volume</name>
+			<size type="String">5</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">Main_or_Foreign_Acc_Value</name>
+			<size type="String">5</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+		<field_6>
+			<name type="String">Deals_in_Big_Lot_Board</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_6>
+		<field_7>
+			<name type="String">Big_Lot_Acc_Volume</name>
+			<size type="String">5</size>
+			<type type="String">Mod-96</type>
+		</field_7>
+		<field_8>
+			<name type="String">Big_Lot_Acc_Value</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_8>
+		<field_9>
+			<name type="String">Deals_in_Odd_Lot_Board</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_9>
+		<field_10>
+			<name type="String">Odd_Lot_Acc_Volume</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_10>
+		<field_11>
+			<name type="String">Odd_Lot_Acc_Value</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_11>
+	</Message>
+	<Message id="SS" beanName="eps.com.message.broadcast.SecurityStatusChange_SS" size="37">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">SS</type>
+		</field_1>
+		<field_2>
+			<name type="String">Security_Number</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Filler1</name>
+			<size type="String">1</size>
+			<type type="String"></type>
+		</field_3>
+		<field_4>
+			<name type="String">Sector_Number</name>
+			<size type="String">1</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">Filler2</name>
+			<size type="String">1</size>
+			<type type="String"></type>
+		</field_5>
+		<field_6>
+			<name type="String">HaltorResume_Flag</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_6>
+		<field_7>
+			<name type="String">System_Control_Code</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_7>
+		<field_8>
+			<name type="String">Filler3</name>
+			<size type="String">1</size>
+			<type type="String"></type>
+		</field_8>
+		<field_9>
+			<name type="String">Suspension</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_9>
+		<field_10>
+			<name type="String">Delist</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_10>
+		<field_11>
+			<name type="String">Filler4</name>
+			<size type="String">1</size>
+			<type type="String"></type>
+		</field_11>
+		<field_12>
+			<name type="String">Ceiling</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_12>
+		<field_13>
+			<name type="String">Floor_Price</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_13>
+		<field_14>
+			<name type="String">Security_Type</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_14>
+		<field_15>
+			<name type="String">Prior_Close_Price</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_15>
+		<field_16>
+			<name type="String">Filler5</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_16>
+		<field_17>
+			<name type="String">Split</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_17>
+		<field_18>
+			<name type="String">Benefit</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_18>
+		<field_19>
+			<name type="String">Meeting</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_19>
+		<field_20>
+			<name type="String">Notice</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_20>
+		<field_21>
+			<name type="String">Board_Lot</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_21>
+		<field_22>
+			<name type="String">Filler6</name>
+			<size type="String">1</size>
+			<type type="String"></type>
+		</field_22>
+	</Message>
+	<Message id="SU" beanName="eps.com.message.broadcast.SecurityUpdate_SU" size="110">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">SU</type>
+		</field_1>
+		<field_2>
+			<name type="String">s_SecurityNumberOld</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">s_SecurityNumberNew</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">s_Filler1</name>
+			<size type="String">1</size>
+			<type type="String"></type>
+		</field_4>
+		<field_5>
+			<name type="String">s_SectorNumber</name>
+			<size type="String">1</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+		<field_6>
+			<name type="String">s_Filler2</name>
+			<size type="String">1</size>
+			<type type="String"></type>
+		</field_6>
+		<field_7>
+			<name type="String">s_SecuritySymbol</name>
+			<size type="String">8</size>
+			<type type="String">AlphaNumericString</type>
+		</field_7>
+		<field_8>
+			<name type="String">s_SecurityType</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_8>
+		<field_9>
+			<name type="String">s_CeilingPrice</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_9>
+		<field_10>
+			<name type="String">s_FloorPrice</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_10>
+		<field_11>
+			<name type="String">s_LastSalePrice</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_11>
+		<field_12>
+			<name type="String">s_MarketID</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_12>
+		<field_13>
+			<name type="String">s_Filler3</name>
+			<size type="String">3</size>
+			<type type="String"></type>
+		</field_13>
+		<field_14>
+			<name type="String">s_SecurityName</name>
+			<size type="String">25</size>
+			<type type="String">AlphaString></type>
+		</field_14>
+		<field_15>
+			<name type="String">s_Filler4</name>
+			<size type="String">1</size>
+			<type type="String"></type>
+		</field_15>
+		<field_16>
+			<name type="String">s_Suspension</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_16>
+		<field_17>
+			<name type="String">s_Delist</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_17>
+		<field_18>
+			<name type="String">s_HaltResumeFlag</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_18>
+		<field_19>
+			<name type="String">s_Split</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_19>
+		<field_20>
+			<name type="String">s_Benefit</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString></type>
+		</field_20>
+		<field_21>
+			<name type="String">s_Meeting</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_21>
+		<field_22>
+			<name type="String">s_Notice</name>
+			<size type="String">1</size>
+			<type type="String"></type>
+		</field_22>
+		<field_23>
+			<name type="String">s_ClientIDRequired</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_23>
+		<field_24>
+			<name type="String">s_ParValue</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_24>
+		<field_25>
+			<name type="String">s_SDCFlag</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_25>
+		<field_26>
+			<name type="String">s_PriorClosePrice</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_26>
+		<field_27>
+			<name type="String">s_PriorClosedate</name>
+			<size type="String">8</size>
+			<type type="String">NumericString</type>
+		</field_27>
+		<field_28>
+			<name type="String">s_OpenPrice</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_28>
+		<field_29>
+			<name type="String">s_HighestPrice</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_29>
+		<field_30>
+			<name type="String">s_LowestPrice</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_30>
+		<field_31>
+			<name type="String">s_TotalSharesTraded</name>
+			<size type="String">5</size>
+			<type type="String">Mod-96</type>
+		</field_31>
+		<field_32>
+			<name type="String">s_TotalValuesTraded</name>
+			<size type="String">5</size>
+			<type type="String">Mod-96</type>
+		</field_32>
+		<field_33>
+			<name type="String">s_BoardLot</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_33>
+		<field_34>
+			<name type="String">s_Filler5</name>
+			<size type="String">1</size>
+			<type type="String"></type>
+		</field_34>
+	</Message>
+	<Message id="TC" beanName="eps.com.message.broadcast.TraderStatusChange_TC" size="8">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">TC</type>
+		</field_1>
+		<field_2>
+			<name type="String">Firm</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Trader_ID</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">Trader_Status</name>
+			<size type="String">1</size>
+			<type type="String"></type>
+		</field_4>
+	</Message>
+	<Message id="TP" beanName="eps.com.message.broadcast.TopPrices_TP" 	size="26">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">TP</type>
+		</field_1>
+		<field_2>
+			<name type="String">Security_Number</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Side</name>
+			<size type="String">1</size>
+			<type type="String">AlphaString</type>
+		</field_3>
+		<field_4>
+			<name type="String">Price_1_best</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+		<field_5>
+			<name type="String">Lot_Volume_1</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_5>
+		<field_6>
+			<name type="String">Price_2_2nd_best</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_6>
+		<field_7>
+			<name type="String">Lot_Volume_2</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_7>
+		<field_8>
+			<name type="String">Price_3_3rd_best</name>
+			<size type="String">4</size>
+			<type type="String">Mod-96</type>
+		</field_8>
+		<field_9>
+			<name type="String">Lot_Volume_3</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_9>
+	</Message>
+	<Message id="TR" beanName="eps.com.message.broadcast.ForeignRoom_TR" size="16">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">TR</type>
+		</field_1>
+		<field_2>
+			<name type="String">Security_Number</name>
+			<size type="String">2</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+		<field_3>
+			<name type="String">Total_Room</name>
+			<size type="String">6</size>
+			<type type="String">Mod-96</type>
+		</field_3>
+		<field_4>
+			<name type="String">Current_Room</name>
+			<size type="String">6</size>
+			<type type="String">Mod-96</type>
+		</field_4>
+	</Message>
+	<Message id="TS" beanName="eps.com.message.broadcast.TimeStamp_TS" 	size="5">
+		<field_1>
+			<name type="String">MessageType</name>
+			<size type="String">2</size>
+			<type type="String">TR</type>
+		</field_1>
+		<field_2>
+			<name type="String">Timestamp</name>
+			<size type="String">3</size>
+			<type type="String">Mod-96</type>
+		</field_2>
+	</Message>
+</MessageCollection>
